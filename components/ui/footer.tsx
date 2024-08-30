@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="w-full max-w-screen-xl p-4 mx-auto md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href=""
+            href="/"
             className="flex items-center mb-4 space-x-3 sm:mb-0 rtl:space-x-reverse"
           >
             <span className="self-center text-2xl italic font-semibold whitespace-nowrap dark:text-white">

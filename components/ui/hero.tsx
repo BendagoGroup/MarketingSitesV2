@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import HeaderImage from "../../public/pexels-canvastudio-3194519.jpg";
 import { Button } from "@nextui-org/button";
-import { redirect } from "next/navigation";
 
 export const Hero = () => {
   return (
@@ -62,8 +61,9 @@ export const Hero = () => {
             sizes="100vw"
             style={{
               width: "100%",
-              height: "auto"
-            }} />
+              height: "auto",
+            }}
+          />
 
           {/* SVG */}
 
