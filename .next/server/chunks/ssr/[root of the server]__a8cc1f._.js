@@ -967,7 +967,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$pexels$2d$canvastudio$2d$3194519$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$pexels$2d$canvastudio$2d$3194519$2e$jpg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/pexels-canvastudio-3194519.jpg.mjs { IMAGE => "[project]/public/pexels-canvastudio-3194519.jpg [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$button$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@nextui-org/button/dist/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
+;
 ;
 ;
 ;
@@ -991,14 +993,14 @@ const Hero = ()=>{
                                     children: "AI-Driven "
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/hero.tsx",
-                                    lineNumber: 17,
+                                    lineNumber: 18,
                                     columnNumber: 13
                                 }, this),
                                 "Precision"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ui/hero.tsx",
-                            lineNumber: 15,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1006,10 +1008,10 @@ const Hero = ()=>{
                             children: "Maximize your reach and revenue with our expert strategies and cutting-edge technology. Experience the power of AI precision in turning your goals into results."
                         }, void 0, false, {
                             fileName: "[project]/components/ui/hero.tsx",
-                            lineNumber: 19,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             href: "#Pricing",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$button$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                 className: " mt-7 sm:inline-flex",
@@ -1029,36 +1031,36 @@ const Hero = ()=>{
                                         d: "M9 18l6-6-6-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/hero.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 45,
                                         columnNumber: 19
                                     }, void 0)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/hero.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 33,
                                     columnNumber: 17
                                 }, void 0),
                                 children: "Get started"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero.tsx",
-                                lineNumber: 27,
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ui/hero.tsx",
-                            lineNumber: 26,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-2 mt-6 lg:mt-10 gap-x-5"
                         }, void 0, false, {
                             fileName: "[project]/components/ui/hero.tsx",
-                            lineNumber: 52,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ui/hero.tsx",
-                    lineNumber: 14,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1076,23 +1078,23 @@ const Hero = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ui/hero.tsx",
-                        lineNumber: 57,
+                        lineNumber: 59,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/hero.tsx",
-                    lineNumber: 56,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ui/hero.tsx",
-            lineNumber: 13,
+            lineNumber: 14,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ui/hero.tsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 };

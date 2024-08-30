@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import HeaderImage from "../../public/pexels-canvastudio-3194519.jpg";
 import { Button } from "@nextui-org/button";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -23,7 +24,8 @@ export const Hero = () => {
           </p>
 
           {/* Buttons */}
-          <a href="#Pricing">
+
+          <Link href={"#Pricing"}>
             <Button
               className=" mt-7 sm:inline-flex"
               color="primary"
@@ -46,7 +48,7 @@ export const Hero = () => {
             >
               Get started
             </Button>
-          </a>
+          </Link>
 
           {/* Review */}
           <div className="grid grid-cols-2 mt-6 lg:mt-10 gap-x-5"></div>
