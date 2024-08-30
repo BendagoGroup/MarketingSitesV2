@@ -1,6 +1,6 @@
 "use client";
 
-import { FC } from "react";
+import React, { FC } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
 import { SwitchProps, useSwitch } from "@nextui-org/switch";
 import { useTheme } from "next-themes";
@@ -42,7 +42,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
     <>
       {/* Use React.createElement to ensure Component is treated as a valid JSX element */}
       {React.createElement(
-        Component,
+        Component as React.ElementType, // Ensure Component is treated as a valid JSX element
         {
           ...getBaseProps({
             className: clsx(
