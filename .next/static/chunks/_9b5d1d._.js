@@ -357,7 +357,7 @@ const ThemeSwitch = ({ className, classNames })=>{
     const onChange = ()=>{
         theme === "light" ? setTheme("dark") : setTheme("light");
     };
-    const { Component, slots, isSelected, getBaseProps, getInputProps, getWrapperProps } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$switch$2f$dist$2f$chunk$2d$JYO7OWIA$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSwitch"])({
+    const { Component = "div", slots, isSelected, getBaseProps, getInputProps, getWrapperProps } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$switch$2f$dist$2f$chunk$2d$JYO7OWIA$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSwitch"])({
         isSelected: theme === "light" || isSSR,
         "aria-label": `Switch to ${theme === "light" || isSSR ? "dark" : "light"} mode`,
         onChange
@@ -420,7 +420,7 @@ const ThemeSwitch = ({ className, classNames })=>{
         columnNumber: 5
     }, this);
 };
-_s(ThemeSwitch, "MWqObSnWI+v7jZNxgKP/YIJmm38=", false, function() {
+_s(ThemeSwitch, "EG+J7rLLNRboX1P17WSWBYuNt4I=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$module$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$aria$2f$ssr$2f$dist$2f$SSRProvider$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsSSR"],

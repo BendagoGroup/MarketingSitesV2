@@ -326,7 +326,7 @@ const ThemeSwitch = ({ className, classNames })=>{
     const onChange = ()=>{
         theme === "light" ? setTheme("dark") : setTheme("light");
     };
-    const { Component, slots, isSelected, getBaseProps, getInputProps, getWrapperProps } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$switch$2f$dist$2f$chunk$2d$JYO7OWIA$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSwitch"])({
+    const { Component = "div", slots, isSelected, getBaseProps, getInputProps, getWrapperProps } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$switch$2f$dist$2f$chunk$2d$JYO7OWIA$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSwitch"])({
         isSelected: theme === "light" || isSSR,
         "aria-label": `Switch to ${theme === "light" || isSSR ? "dark" : "light"} mode`,
         onChange
