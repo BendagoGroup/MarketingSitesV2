@@ -1,10 +1,8 @@
 import {
   Navbar as NextUINavbar,
   NavbarContent,
-
   NavbarBrand,
-  NavbarItem,
-
+  NavbarItem
 } from "@nextui-org/navbar";
 import { Button } from "@nextui-org/button";
 import { Kbd } from "@nextui-org/kbd";
@@ -13,17 +11,9 @@ import { Input } from "@nextui-org/input";
 
 import NextLink from "next/link";
 
-
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
-  Logo,
-} from "@/components/icons";
+import { HeartFilledIcon, SearchIcon, Logo } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
@@ -31,7 +21,7 @@ export const Navbar = () => {
       aria-label="Search"
       classNames={{
         inputWrapper: "bg-default-100",
-        input: "text-sm",
+        input: "text-sm"
       }}
       endContent={
         <Kbd className="hidden lg:inline-block" keys={["command"]}>
@@ -53,7 +43,9 @@ export const Navbar = () => {
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex items-center justify-start gap-1" href="/">
             {/* <Logo /> */}
-            <p className="italic font-bold text-inherit">BENDAGO</p>
+            <p className="text-2xl italic font-black text-inherit">
+              BENDA<span className="text-[#4804fc]">GO</span>
+            </p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
