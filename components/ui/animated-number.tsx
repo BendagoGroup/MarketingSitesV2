@@ -26,7 +26,7 @@ export function AnimatedNumber({
 }: AnimatedNumberProps) {
   const spring = useSpring(value, { mass, stiffness, damping });
   const display: MotionValue<string> = useTransform(spring, (current) =>
-    format(parseFloat(current.toFixed(precision)))
+    format(parseFloat(current.toFixed(precision))),
   );
 
   useEffect(() => {
