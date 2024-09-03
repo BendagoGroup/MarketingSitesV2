@@ -30,14 +30,14 @@ export const Pricing: React.FC = () => {
         "Basic Marketing Funnel Setup",
         "Monthly Reporting & Analytics",
         "Custom integrations",
-        "Email Support",
+        "Email Support"
       ],
-      buttonText: "Book a call now",
+      buttonText: "Book a call now"
     },
     {
       title: "Pro",
-      price: 3999,
-      originalPrice: 3999,
+      price: 4999,
+      originalPrice: 4999,
       description:
         "For growing companies that need more comprehensive marketing strategies.",
       features: [
@@ -45,14 +45,14 @@ export const Pricing: React.FC = () => {
         "Advanced Funnel Customization",
         "Weekly Performance Tracking",
         "Priority Email & SMS Support",
-        "Phone Call Support (Business Hours)",
+        "Phone Call Support (Business Hours)"
       ],
-      buttonText: "Book a call now",
+      buttonText: "Book a call now"
     },
     {
       title: "Growth",
-      price: 5999,
-      originalPrice: 5999,
+      price: 9999,
+      originalPrice: 9999,
       description:
         "Best for established businesses ready to dominate their market.",
       features: [
@@ -60,10 +60,10 @@ export const Pricing: React.FC = () => {
         "Dedicated Account Manager",
         "Full Funnel Overhaul",
         "On-Demand Strategy Sessions *",
-        "24/7 Priority Email, SMS, and Phone Call Support",
+        "24/7 Priority Email, SMS, and Phone Call Support"
       ],
-      buttonText: "Book a call now",
-    },
+      buttonText: "Book a call now"
+    }
   ];
 
   const [plansData, setPlansData] = useState<Plans>(initialPlansData);
@@ -74,7 +74,7 @@ export const Pricing: React.FC = () => {
       3: 2.5,
       6: 5,
       9: 7.5,
-      12: 10,
+      12: 10
     };
 
     const discount = discountRates[value] || 0;
@@ -86,7 +86,7 @@ export const Pricing: React.FC = () => {
 
       return {
         ...plan,
-        price: discountedPrice,
+        price: discountedPrice
       };
     });
 
@@ -103,7 +103,7 @@ export const Pricing: React.FC = () => {
       3: "2.5% off",
       6: "5% off",
       9: "7.5% off",
-      12: "10% off",
+      12: "10% off"
     };
 
     return options[Number(value)] || `${value} months`;
@@ -138,24 +138,24 @@ export const Pricing: React.FC = () => {
           marks={[
             {
               value: 0,
-              label: "1 month",
+              label: "1 month"
             },
             {
               value: 3,
-              label: "3 months",
+              label: "3 months"
             },
             {
               value: 6,
-              label: "6 months",
+              label: "6 months"
             },
             {
               value: 9,
-              label: "9 months",
+              label: "9 months"
             },
             {
               value: 12,
-              label: "annual",
-            },
+              label: "annual"
+            }
           ]}
           defaultValue={0}
           className="max-w-md"
