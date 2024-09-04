@@ -157,7 +157,7 @@ export const Pricing: React.FC = () => {
               label: "annual"
             }
           ]}
-          defaultValue={0}
+          defaultValue={6}
           className="max-w-md"
           onChange={handleSliderChange} // Call the discount function on slider change
         />
